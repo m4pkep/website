@@ -1,12 +1,10 @@
-import styles from './Home.module.css';
-
 const Home = () => {
     return (
-        <div className={styles.container}>
-            <h1 className={styles.title}>
+        <div className="bg-gray-100 p-8 min-h-screen text-center">
+            <h1 className="font-bold text-2xl mb-4">
                 welcome to main page of my react website
             </h1>
-            <p className={styles.description}>
+            <p className="text-purple-700 text-xl">
                 здесь собраны мои мини проекты на реакте
             </p>
         </div>
